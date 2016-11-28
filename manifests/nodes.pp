@@ -1,5 +1,7 @@
 node 'testpuppet.home'{
-      include test
+      include nginx
+      include hosts
+      include users
  }
 
 node default{
